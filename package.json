@@ -1,6 +1,6 @@
 {
   "name": "how3-dip",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "HOW3 Interoperability Protocol",
   "main": "lib/index.js",
   "type": "commonjs",
