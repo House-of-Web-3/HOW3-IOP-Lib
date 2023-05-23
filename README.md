@@ -71,37 +71,37 @@ Functions provided by DIP library.
 
     Search:
 
-    Search domain names and TLDs around different blockchains and domain name services and show availability and owner of unavailable domain names or TLDs.
+        Search domain names and TLDs around different blockchains and domain name services and show availability and owner of unavailable domain names or TLDs.
 
-    Add your domain service:
+        Add your domain service:
 
-    You can add your domain name service details to enable the search function for your registered domain names. This service is available only by applying your request at team@how3.me.
+        You can add your domain name service details to enable the search function for your registered domain names. This service is available only by applying your request at team@how3.me.
 
     Register using DIP library:
 
-    You can register your certificate of ownership using our library. For that, you will need to provide the Metamask private key to make the transaction on Binance Smart Chain.
+        You can register your certificate of ownership using our library. For that, you will need to provide the Metamask private key to make the transaction on Binance Smart Chain.
 
     Register using Metamask:
 
-    You can register your certificate of ownership from our website  using Metamask extension.
+        You can register your certificate of ownership from our website  using Metamask extension.
 
     Transfer using Hardhat:
 
-    You can transfer your certificate to some other address using Hardhat command line tools. 
-    '''
-        TransferFrom({OwnersAddress},{RecieversAddress},{TokenID})
-    '''
+        You can transfer your certificate to some other address using Hardhat command line tools. 
+        '''
+            TransferFrom({OwnersAddress},{RecieversAddress},{TokenID})
+        '''
 
     Transfer using Metamask:
 
-    You can transfer your certificate by simply sending it like an NFT using Metamask.
+        You can transfer your certificate by simply sending it like an NFT using Metamask.
 
     Renew using Hardhat:
 
-    Renew your certificate using Hardhat command line tools.
-    '''
-        renewDomainName({0xdomainName_in_bytes})
-    '''
+        Renew your certificate using Hardhat command line tools.
+        '''
+            renewDomainName({0xdomainName_in_bytes})
+        '''
 
 # Verify your certificate
 
