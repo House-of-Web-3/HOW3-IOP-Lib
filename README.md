@@ -36,13 +36,13 @@ This code search for the availability of the domain name and TLD and determines 
 Input param:
 Domain name -> [String] example - “vitalik.eth”
 Code snippet:
-'''
-    const { HOW3Protocol } = require("./lib/index.js");
-    async function check() {
-           console.log(await HOW3Protocol.isAvailable("vitalik.eth"));
-    }
-    
- '''
+    '''
+        const { HOW3Protocol } = require("./lib/index.js");
+        async function check() {
+               console.log(await HOW3Protocol.isAvailable("vitalik.eth"));
+        }
+
+     '''
 
 # Register
 This code verifies and registers a new certificate of ownership for the owner of the specific domain name and TLD.
@@ -52,17 +52,17 @@ Domain name -> [String] example - “vitalik.eth”
 Owner’s address -> [String] example - “0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045”
 Private Key -> [String] example - “55904db11601d3d9e701b6cc2e67f6xxxxxxxxxxxxxxxxx”
 Code snippet:
-'''
-    const { HOW3Protocol } = require("./lib/index.js");
-    async function check2() {
-         console.log(await HOW3Protocol.register(
-                    "pptechno52.nft",
-                    "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
-                    "55904db11601d3d9e701b6cc2e67f6xxxxxxxxxxxxxxxxx"
-          ));
-    }
-    
- '''
+    '''
+        const { HOW3Protocol } = require("./lib/index.js");
+        async function check2() {
+             console.log(await HOW3Protocol.register(
+                        "pptechno52.nft",
+                        "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+                        "55904db11601d3d9e701b6cc2e67f6xxxxxxxxxxxxxxxxx"
+              ));
+        }
+
+     '''
 
 # Functions
 
