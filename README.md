@@ -36,6 +36,7 @@ This code search for the availability of the domain name and TLD and determines 
 Input param:
 Domain name -> [String] example - “vitalik.eth”
 Code snippet:
+
     '''
         const { HOW3Protocol } = require("./lib/index.js");
         async function check() {
