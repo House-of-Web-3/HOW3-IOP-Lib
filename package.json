@@ -27,6 +27,7 @@
   "dependencies": {
     "@bonfida/spl-name-service": "^0.2.7",
     "dotbit": "^0.4.20",
+    "how3-dip": "^1.1.0",
     "hs-client": "^0.0.13",
     "web3": "^1.10.0",
     "web3-domain-resolver": "^1.0.4"
