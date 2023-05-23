@@ -52,6 +52,7 @@ Domain name -> [String] example - “vitalik.eth”
 Owner’s address -> [String] example - “0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045”
 Private Key -> [String] example - “55904db11601d3d9e701b6cc2e67f6xxxxxxxxxxxxxxxxx”
 Code snippet:
+
     '''
         const { HOW3Protocol } = require("./lib/index.js");
         async function check2() {
@@ -61,7 +62,6 @@ Code snippet:
                         "55904db11601d3d9e701b6cc2e67f6xxxxxxxxxxxxxxxxx"
               ));
         }
-
      '''
 
 # Functions
