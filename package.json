@@ -2,7 +2,7 @@
   "name": "how3-dip",
   "version": "1.0.0",
   "description": "HOW3 Interoperability Protocol",
-  "main": "lib/index.",
+  "main": "lib/index.js",
   "type": "commonjs",
   "scripts": {
     "build": "tsc",
