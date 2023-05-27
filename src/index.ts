@@ -65,6 +65,14 @@ export class HOW3Protocol {
             console.log(err);
         });
     }
+        //HOW3
+        Axios.get("https://backend.how3.me/explore/" + domain)
+        .then((response) => {
+            if(response.data.wallet_address!==undefined){
+                available.push({platform:"HOW3", owner:response.data.wallet_address});
+            }
+        })
+        .catch((err) => console.log(err));
     
         //DID
         // await dotbit.records(domain).then(console.log)
